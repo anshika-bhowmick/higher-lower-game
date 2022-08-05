@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  text-align: center;
+  background: #8CD5D9; 
+}
+
+#remining-guesses {
+  font-size: 30px;
+  color: orangered;
+  font-weight: bold;
+}
+
+#lose-message {
+  font-weight: bold;
+  padding: 7px;
+  color: red;
+  font-size: 35px;
+}
+
+#win-message {
+  font-weight: bold;
+  padding: 7px;
+  color: yellow;
+  font-size: 35px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+}
+
+#guess-input {
+  border:green 5px double;
+}
